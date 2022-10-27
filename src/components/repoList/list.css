@@ -1,0 +1,39 @@
+.test{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title{
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.list{
+    display: flex;
+    width: 35rem;
+    height: auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.expandList{
+    padding: 5rem;
+    width: 50rem;
+    gap: 2rem;
+}
+
+.expandList.listItems{
+    padding: 10px;
+}
